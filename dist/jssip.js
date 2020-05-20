@@ -23208,7 +23208,6 @@ module.exports = /*#__PURE__*/function () {
     key: "connect",
     value: function connect() {
       debug('connect()');
-      console.trace('connect trace');
 
       if (this.isConnected()) {
         debug('Transport is already connected');
